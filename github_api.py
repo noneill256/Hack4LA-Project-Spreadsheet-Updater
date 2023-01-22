@@ -1,3 +1,6 @@
+# This file contains the function that actually collects the desired data from
+# every project's corresponding api.
+
 import requests
 import math
 import pandas as pd
@@ -24,10 +27,14 @@ def getdata(url):
 def CollectData():
     ## import the list of urls
     url_list = pd.read_csv("C:/Users/Noah/Coding/hack4la/projects_database/repo_urls2.csv", header=0)
+        # (repo_urls2.csv is the list of urls we'll use, plus an additional
+        # column containing the corresponding gitlab project ID's, if the
+        # project url is indeed a gitlab project)
     
     # the lists we'll use to make our final dataframe
     update_list = np.array([])
     contrib_count_list = np.array([])
+    
     ## loop through the urls and retrieve the desired data from each repository
     for ind in url_list.index:
         print(f'line {ind}')
@@ -39,11 +46,13 @@ def CollectData():
             # generating the api url for each repository
             owner = u.split('/')[3]
             repo_name = u.split('/')[4]
-            
-            # accessing the api
             api_url = ''.join(['https://api.github.com/repos/', owner, '/', repo_name])
+            # generating the api link that specifically contains the 
+            # data on a project's contributors
             contrib_url = ''.join(['https://api.github.com/repos/', owner, '/', repo_name, '/contributors'])
-            repo_data = getdata(api_url) # calling our created function
+            
+            # calling our created function and collecting the desired data
+            repo_data = getdata(api_url)
             
             # if the repo has been deleted and its api no longer returns data
             if len(repo_data) < 3:
@@ -96,8 +105,9 @@ def CollectData():
             update_list = np.append(update_list, '')
             contrib_count_list = np.append(contrib_count_list, '')
         
-        
-    fulldf = pd.DataFrame()
+    
+    # convert the collected data to a dataframe
+    fulldf = pd.DataFrame() 
     fulldf['last_updated'] = update_list
     fulldf['num_of_contributors'] = contrib_count_list
     

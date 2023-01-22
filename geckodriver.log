@@ -1,0 +1,166 @@
+1664135159418	geckodriver	INFO	Listening on 127.0.0.1:55197
+1664135162390	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofiledHLtRK"
+1664135163080	Marionette	INFO	Marionette enabled
+1664135163096	Marionette	INFO	Listening on port 55209
+Read port: 55209
+1664135163385	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofiledHLtRK\\search.json.mozlz4", (void 0)))
+1664135169941	Marionette	INFO	Stopped listening on port 55209
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 593: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 593: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1664135311171	geckodriver	INFO	Listening on 127.0.0.1:55283
+1664135314178	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofilerIcLsd"
+*** You are running in headless mode.
+1664135314806	Marionette	INFO	Marionette enabled
+1664135314815	Marionette	INFO	Listening on port 55295
+Read port: 55295
+1664135315165	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofilerIcLsd\\search.json.mozlz4", (void 0)))
+1664135320729	Marionette	INFO	Stopped listening on port 55295
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1664320822711	geckodriver	INFO	Listening on 127.0.0.1:58778
+1664320824785	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofileuQXS1h"
+*** You are running in headless mode.
+1664320825440	Marionette	INFO	Marionette enabled
+1664320825453	Marionette	INFO	Listening on port 58791
+Read port: 58791
+1664320825659	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofileuQXS1h\\search.json.mozlz4", (void 0)))
+1664320827642	Marionette	INFO	Stopped listening on port 58791
+console.error: services.settings: 
+  main/quicksuggest Signature failed  Error: Shutdown, aborting read-only worker requests.
+1664320875305	geckodriver	INFO	Listening on 127.0.0.1:58812
+1664320878316	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofile7ZKuhh"
+*** You are running in headless mode.
+1664320878816	Marionette	INFO	Marionette enabled
+1664320878826	Marionette	INFO	Listening on port 58824
+Read port: 58824
+1664320878990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofile7ZKuhh\\search.json.mozlz4", (void 0)))
+1664320880746	Marionette	INFO	Stopped listening on port 58824
+JavaScript error: resource:///modules/UrlbarQuickSuggest.sys.mjs, line 294: TypeError: win is null
+1664320952293	geckodriver	INFO	Listening on 127.0.0.1:58840
+1664320955303	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofilepK306U"
+*** You are running in headless mode.
+1664320955760	Marionette	INFO	Marionette enabled
+1664320955773	Marionette	INFO	Listening on port 58852
+Read port: 58852
+1664320955965	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofilepK306U\\search.json.mozlz4", (void 0)))
+1664320958012	Marionette	INFO	Stopped listening on port 58852
+1664321003345	geckodriver	INFO	Listening on 127.0.0.1:58865
+1664321006364	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofilePcEirQ"
+*** You are running in headless mode.
+1664321006835	Marionette	INFO	Marionette enabled
+1664321006846	Marionette	INFO	Listening on port 58877
+Read port: 58877
+1664321007147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofilePcEirQ\\search.json.mozlz4", (void 0)))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1664321038823	Marionette	INFO	Stopped listening on port 58877
+1664321090681	geckodriver	INFO	Listening on 127.0.0.1:58975
+1664321093688	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofileFm5Sgn"
+*** You are running in headless mode.
+1664321094308	Marionette	INFO	Marionette enabled
+1664321094323	Marionette	INFO	Listening on port 58987
+Read port: 58987
+1664321094470	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofileFm5Sgn\\search.json.mozlz4", (void 0)))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://gitlab.com/assets/webpack/runtime.2c23d928.bundle.js, line 1: ChunkLoadError: Loading chunk 914 failed.
+(error: https://gitlab.com/assets/webpack/top_nav.16fd5960.chunk.js)
+1664321124704	Marionette	INFO	Stopped listening on port 58987
+1664322812511	geckodriver	INFO	Listening on 127.0.0.1:49865
+1664322815504	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofilevNlBpe"
+*** You are running in headless mode.
+1664322816094	Marionette	INFO	Marionette enabled
+1664322816105	Marionette	INFO	Listening on port 49877
+Read port: 49877
+1664322816425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofilevNlBpe\\search.json.mozlz4", (void 0)))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1664322845748	Marionette	INFO	Stopped listening on port 49877
+1664322896912	geckodriver	INFO	Listening on 127.0.0.1:49982
+1664322899910	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofileQuODEi"
+*** You are running in headless mode.
+1664322900529	Marionette	INFO	Marionette enabled
+1664322900536	Marionette	INFO	Listening on port 49994
+Read port: 49994
+1664322900955	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofileQuODEi\\search.json.mozlz4", (void 0)))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:50063
+1664323022952	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofilepT9GUj"
+*** You are running in headless mode.
+1664323023780	Marionette	INFO	Marionette enabled
+1664323023796	Marionette	INFO	Listening on port 50075
+Read port: 50075
+1664323024006	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofilepT9GUj\\search.json.mozlz4", (void 0)))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1664323055851	Marionette	INFO	Stopped listening on port 50075
+1664323831212	geckodriver	INFO	Listening on 127.0.0.1:50434
+1664323834224	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofileDQo6TG"
+*** You are running in headless mode.
+1664323834777	Marionette	INFO	Marionette enabled
+1664323834788	Marionette	INFO	Listening on port 50446
+Read port: 50446
+1664323835039	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofileDQo6TG\\search.json.mozlz4", (void 0)))
+JavaScript error: https://gitlab.windenergy.dtu.dk/assets/webpack/pages.projects.show.fefbe4f7.chunk.js, line 1: TypeError: e is null
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:50494
+1664323856460	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofileVcgEIA"
+*** You are running in headless mode.
+1664323856963	Marionette	INFO	Marionette enabled
+1664323856971	Marionette	INFO	Listening on port 50506
+Read port: 50506
+1664323857339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Noah\\AppData\\Local\\Temp\\rust_mozprofileVcgEIA\\search.json.mozlz4", (void 0)))
+JavaScript error: https://gitlab.com/assets/webpack/runtime.2c23d928.bundle.js, line 1: ChunkLoadError: Loading chunk 238 failed.
+(error: https://gitlab.com/assets/webpack/vendors-globalSearch-top_nav.1ff77aaa.chunk.js)
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1664323890203	Marionette	INFO	Stopped listening on port 50506
