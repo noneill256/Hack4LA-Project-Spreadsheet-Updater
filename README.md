@@ -2,7 +2,7 @@
 The purpose of this project is to collect data on over 1,000 open-source projects available online -- specifically, the number of contributors on each project and the date at which each was last updated. This repo contains 3 Python scripts, only one of which needs to be run in order to collect the data.  
 
 ## main.py
-References a function (defined in github.api) that collects data on each project. The collected data is then inserted into a Google sheet owned by Hack4LA.  
+References a function (defined in github_api.py) that collects data on each project. The collected data is then inserted into a Google sheet owned by Hack4LA.  
 
 ## github_api.py
 Defines CollectData(), the function that... collects data. Uses repo_urls2.csv, which was created with gitlab_id_scraper.py.  
