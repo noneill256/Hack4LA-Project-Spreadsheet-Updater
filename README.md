@@ -1,4 +1,4 @@
-# Hack4LA Project Data Scraper
+# Hack4LA Project Spreadsheet Updater
 The purpose of this project is to collect data on over 1,000 open-source projects available online -- specifically, the number of contributors on each project and the date at which each was last updated. This repo contains 3 Python scripts, only one of which needs to be run in order to collect the data.  
 
 ## main.py
